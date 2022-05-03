@@ -23,7 +23,8 @@ body{
     transform: translate(-50%,-50%);
     background-color: hsl(225, 100%, 98%);
     color: hsl(223, 47%, 23%);
-    margin-bottom: 10%;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #hero{
