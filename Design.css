@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display" , sans-serif;
+}
+
+#main{
+    width: 30%;
+    min-width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%,-50%);  
+    transform: translate(-50%,-50%);
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 10%;
+}
+
+#hero{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url("illustration-hero.svg");
+}
+
+h2{
+    margin: 30px 30px 20px 23px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    margin: 0px 40px;
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display';
+}
+
+#mid{
+    /* border: 1px solid #000; */
+    width: 75%;
+    margin-left: 47px;
+    height: 50px;
+}
+
+#iconmusic{
+    display: inline;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 0 3px ;
+}
+
+h4{
+    color: hsl(223, 47%, 23%);
+    margin: 1% 0 0 2%;
+    display: inline;
+    width: 20%;
+}
+
+#change{
+    font-size: 13px;
+    margin-top: 4%;
+    float: right;
+    display: inline;
+}
+
+span{
+    font-size: 13px;
+    margin-left: 2%;
+    display: block;
+}
+
+#proceedbutton{
+    width: 70%;
+    padding: 3%;
+    border: none;
+    border-radius: 10px;
+    margin: 7% 0 0 15%;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-weight: 700;
+}
+
+#cancelbutton{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 7% 0 7% 15%;
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#proceedbutton:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+#cancelbutton:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+a{
+    color:hsl(223, 47%, 23%);
+}
+a:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
